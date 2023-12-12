@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+app/src/main/java/tees/ac/uk/mad/w9538022/recipeapp/viewmodel/RecipeViewModel.kt
+app/src/main/java/tees/ac/uk/mad/w9538022/recipeapp/services/recipeApi.kt
+app/src/main/java/tees/ac/uk/mad/w9538022/recipeapp/screens/recipe.kt
+app/src/main/java/tees/ac/uk/mad/w9538022/recipeapp/model/RecipeModel.kt
+app/src/main/java/tees/ac/uk/mad/w9538022/recipeapp/model/Meal.kt

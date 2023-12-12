@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "295760370103",
+    "project_id": "recipeapp-e4b84",
+    "storage_bucket": "recipeapp-e4b84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295760370103:android:908c33eeb051a2fc5b7032",
+        "android_client_info": {
+          "package_name": "tees.ac.uk.mad.w9538022.recipeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAw6snn0Yi6z42BZkWxs-HHf4AJoPLJzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
