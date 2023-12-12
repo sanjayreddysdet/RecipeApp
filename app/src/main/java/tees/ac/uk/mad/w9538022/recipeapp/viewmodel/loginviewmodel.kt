@@ -8,13 +8,17 @@ import tees.ac.uk.mad.w9538022.recipeapp.navigation.Router
 
 class loginviewmodel : ViewModel()
 {
+    // properties
+
     private var email = "";
     private var password = "";
 
+    // set email
     fun setEmail(value: String) {
         email = value
     }
 
+    // set password
     fun setPassword(value: String) {
         password = value
     }
