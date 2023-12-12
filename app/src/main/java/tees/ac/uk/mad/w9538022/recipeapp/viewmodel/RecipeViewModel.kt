@@ -13,9 +13,10 @@ import tees.ac.uk.mad.w9538022.recipeapp.services.recipeApi
 
 class RecipeViewModel(): ViewModel()
 {
+    private val BaseUrl : String = "https://www.themealdb.com/api/json/v1/1/"
     var recipeDetails by mutableStateOf<RecipeModel?>(null)
     private val api = Retrofit.Builder()
-        .baseUrl("https://www.themealdb.com/api/json/v1/1/")
+        .baseUrl(BaseUrl)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
         .create(recipeApi::class.java)
